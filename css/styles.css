@@ -1,0 +1,193 @@
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-famile: 'Raleway', sans-serif;
+    --primary-txt-color: #757575;
+    --title-txt-color: #212121;
+    --primary-white-color: #ffffff;
+    --accent-color: #2196f3;
+    --button-hover: #188ce8;
+    --primary-black-color: #000;
+    --bg-color-hero-footer: #2f303a;
+    --secondary-bg-color: #f5f4fa;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-txt-color);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.header {
+    background-color: var(--primary-white-color);
+}
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--primary-black-color);
+}
+.logo-blue {
+    color: var(--accent-color);
+}
+.nav-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-txt-color);
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--accent-color);
+}
+.current {
+    color: var(--accent-color);
+}
+.contacts-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-txt-color);
+}
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--bg-color-hero-footer);
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    background-color: var(--bg--hero-footer);
+}
+.modal-button {
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.modal-button:hover,
+.modal-button:focus {
+    background-color: var(--button-hover);
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-txt-color);
+}
+.advantages-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-txt-color);
+}
+.advantages-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.team-list-item {
+    background-color: var(--primary-white-color);
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-txt-color);
+}
+.team-description {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background-color: var(--bg-color-hero-footer);
+}
+.logo-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--primary-white-color);
+}
+.address-list-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+.address-opacity {
+    opacity: 60%;
+}
+.address-list-link:hover,
+.address-list-link:focus {
+    color: var(--accent-color);
+}
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-txt-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-txt-color);
+}
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+/* ========DZ 3============== */
+.container {
+    width: 1200px;
+}
+.section {
+    padding: 94px 0;
+}
