@@ -97,6 +97,9 @@ img {
     margin-right: 50px;
 }
 .nav-list-link {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -119,6 +122,9 @@ img {
     margin-right: 50px;
 }
 .contacts-list-link {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
