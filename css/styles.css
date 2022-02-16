@@ -263,6 +263,7 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -361,6 +362,7 @@ img {
     box-sizing: border-box;
 }
 .portfolio-subtitle {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
